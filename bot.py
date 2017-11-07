@@ -6,100 +6,98 @@ from YYK.lib.curve.ttypes import *
 from datetime import datetime
 import time,datetime,random,sys,re,os,json,subprocess,codecs,threading,glob
 
-cl = YYK.LINE()
-cl.login(qr=True)
-cl.loginResult()
 
-cl = LINETCR.LINE()
+
+cl = YYK.LINE()
 cl.login(token="ElDu2YnXzcSCGW9IJL47.1kyf4+QsP7krNDEVhERE5W.G2C9vbhttcWNvJp1mi7Zc4tRsrGXdPRrK0FxFahvpZQ=")
 cl.loginResult()
 
-ki = LINETCR.LINE()
+ki = YYK.LINE()
 ki.login(token="El5sszK6zNtf81vVvjv4.CJqd24edERcutbKcGz5hDa.+zgEZ0tooD0nfs4KQiKQQAmCZbEee7Mzc++G30bQv/0=")
 ki.loginResult()
 
-ki2 = LINETCR.LINE()
+ki2 = YYK.LINE()
 ki2.login(token="ElL5SWJQbuKcLi9ePLEe.SrCSpiP/rYSAQZYxykGUBG.GdjtlfkpmsYsdhDFE/CUd3Yl1NZ7dl7kiZa9wqvrTJc=")
 ki2.loginResult()
 
-ki3 = LINETCR.LINE()
+ki3 = YYK.LINE()
 ki3.login(token="Elrn6F9ra7rsFTYU0g3c.sXCxy0CKzb/86fdMQWIJNa.MV4pT5VumEcGJYZsOtD6g4SvLxc5XuTJM2XvoxIh5fk=")
 ki3.loginResult()
 
-ki4 = LINETCR.LINE()
+ki4 = YYK.LINE()
 ki4.login(token="ElDQG1DLc5Qo6X8Uwug0.WwqPm0ukL9ODJ0m39TY4Sa.RrzMcY05yddE3jbjbHX2DOtThkBX6a6ztWE/yM7Fwko=")
 ki4.loginResult()
 
-ki5 = LINETCR.LINE()
+ki5 = YYK.LINE()
 ki5.login(token="El8ZWksA0RZ1Ubdwrm0a.VRtkE8ldWOmWhFjp0ZIgMG.GcWssPMcEwL40kQ9PEdD9EO0izmc7tJ7TwthpANhdhg=")
 ki5.loginResult()
 
-ki6 = LINETCR.LINE()
+ki6 = YYK.LINE()
 ki6.login(token="ElXDgFI1GBPkORGIXsd4.bOTjwJ4IY6/M4ng+aUJmLa.0UJiAWJxe9wDqD6K1zzS4S7GY7jHlrPcoxGGqYGCgnE=")
 ki6.loginResult()
 
-ki7 = LINETCR.LINE()
+ki7 = YYK.LINE()
 ki7.login(token="El1XEUBmYDuAzDTYBMke.jDxhAGROvQjm1IFQHi4uxG.u+ngeXvfqRsoRLN0oqSqd20yg2kcXBHuroBQYweH6j4=")
 ki7.loginResult()
 
-ki8 = LINETCR.LINE()
+ki8 = YYK.LINE()
 ki8.login(token="El0BVjh5bVypVqugfhn0.3FLXqaAHaqU2vr+bb+uJKa.u/7QzS/nYzXmQvo/Ut9gs3ZsGPuO953jK7ZYRdgCv0U=")
 ki8.loginResult()
 
-ki9 = LINETCR.LINE()
+ki9 = YYK.LINE()
 ki9.login(token="EljrYo9So6Khmhdmt790.3d81No0uyJfmd61BOYIYCa.fXe+2O+h/CuP6/MDyk1NnG4kYsKkNM7EVquzc6qfN9U=")
 ki9.loginResult() 
 
-ki15 = LINETCR.LINE()
+ki15 = YYK.LINE()
 ki15.login(token="EllH4TrW9b5WLGC1C6ce.WHByzKXoh0n3ljIXSlIvBG.lcNynhimCDzpiJ0pO7M5df1sNLDSd/lK8f0G6nbANQY=")
 ki15.loginResult()
 
-a1 = LINETCR.LINE()
+a1 = YYK.LINE()
 a1.login(token="El6RJVvEot5RhvbgX7z6.7Z3cXrtfuogtw1TNNAW49G.g3i1XUW57muA5og3v9YU9KriZ5fzIABYUR9CcgSSMAs=")
 a1.loginResult()
 #海綿
 
-a2 = LINETCR.LINE()
+a2 = YYK.LINE()
 a2.login(token="EljdBhjIpyymNQ2iMdU4.EHXdooy0k7Vdpz/JWPw31a.RJ+ND/knQqmufOobx17Ayy4be3hkmgII8UU8IeQU8fw=")
 a2.loginResult()
 #派大
 
-a3 = LINETCR.LINE()
+a3 = YYK.LINE()
 a3.login(token="Eli6mQsqZLJIa0EwiVU8.RtSrOhnYPzvBP13bYQ3U2a.KuFRaSQhQorY0YCTT5HafXsJ2RhQfHu8JVKiE2ZMx4g=")
 a3.loginResult()
 #章魚
 
-a4 = LINETCR.LINE()
+a4 = YYK.LINE()
 a4.login(token="ElVveSrReW1r3M1fgFe2.sRqeFyjdHuvOeAl/K8LtGG.OvOPQBx5l+agUJi0RDXjZORdoYWJusY04Q0gVQnFP9E=")
 a4.loginResult()
 #蟹老闆
 
-a5 = LINETCR.LINE()
+a5 = YYK.LINE()
 a5.login(token="ElSx7EZx0N5f57VCYFo8.TzpFZMXsDV4G9tO87QsIsa.c6FLvd/TFOlEL6DC9J2AF/kLkoXbbDIoDOr3cxHv7dk=")
 a5.loginResult()
 #
 
-a6 = LINETCR.LINE()
+a6 = YYK.LINE()
 a6.login(token="El3KdJJCZOqb7mghrRdb.IMj6l+lTvlZDBdTs8RLPgW.bXvLPScmdtmgHcxashs30mfxrjoTSnQ7YtyGs0b9Vug=")
 a6.loginResult()
 #皮
 
-a7 = LINETCR.LINE()
+a7 = YYK.LINE()
 a7.login(token="ElitY4szw2pp5a58exS1.LV1zjEYReG6JjveFs1pBeq.Zo1o5IeEvF+Y5azZBOyznGhXCpKJhBTCZXQIxeaKJ7g=")
 a7.loginResult()
 #泡芙
 
-a8 = LINETCR.LINE()
+a8 = YYK.LINE()
 a8.login(token="Elqogkd0Qgc1jWQGdcG7.OmBjf179LkLveZJhlwP9fW./QufjNTidU38rkqyStIwLUjku87wmEpaDQHJchrz298=")
 a8.loginResult()
 #飛行
 
-a9 = LINETCR.LINE()
+a9 = YYK.LINE()
 a9.login(token="ElRv4rztCf0A5XjUrXSb.I/EPueUrHBP1i08VGrbPEW.PYqqYElEpJerTUhOl889jOSeflkwbHS8rMZOirCAXGY=")
 a9.loginResult()
 #小蝸
 
-a10 = LINETCR.LINE()
+a10 = YYK.LINE()
 a10.login(token="El7SEgsY1dmlCTIrqFJf.pyykg7upILnMu7sucQqBVW.eF9xLrkT+ozFZZDjcUExp8OEqgPnRA7bPpzxRd6OrqU=")
 a10.loginResult()
 #水母
@@ -107,27 +105,27 @@ a10.loginResult()
 
 
 
-a15 = LINETCR.LINE()
+a15 = YYK.LINE()
 a15.login(token="Elibg5HYUBwvBJOPYNz7.K8FC8OdgCWbu6m4pI99ALW.G5kAer/FLiiI4PKiZ+7jxHvV260hIMIV04zgiDxmSIg=")
 a15.loginResult()
 
-a16 = LINETCR.LINE()
+a16 = YYK.LINE()
 a16.login(token="ElJXRXnXPNAjmOvNBxv7.hOpNr4wbx5KMeFmQXBc5TW./pl87Q/Wr+UOKYNfGHGhQNnpZ3EWqWc6njo2bgr4A3g=")
 a16.loginResult()
 
-a17 = LINETCR.LINE()
+a17 = YYK.LINE()
 a17.login(token="Ela4iQjLMmWhXL3aIWf5.1UlbJo7AaQIIh43vnZEmvq.pPK1IbCzUe6KWMspgg8Lpn2nuaIupiMbhT9ES/ak5JM=")
 a17.loginResult()
 
-a18 = LINETCR.LINE()
+a18 = YYK.LINE()
 a18.login(token="ElJ8cXYFHheAy0yrvnzd.YKlYXsmUlktiA3+RX2h/Fq.EjU7baAXqyyTz04qiJf5AkiIMnoMIG5WPVjzTxW57Go=")
 a18.loginResult()
 
-a19 = LINETCR.LINE()
+a19 = YYK.LINE()
 a19.login(token="El3K6C9QyHVdhFoAyIa7.jvd7T5r6TSHa3VMqwSkOfW.us5C1DGhPj7r01duuameWYe3Y0YTOItCMnau7nv8FXk=")
 a19.loginResult()
 
-a20 = LINETCR.LINE()
+a20 = YYK.LINE()
 a20.login(token="ElJXymyicerPSoQ2Yhx1.qmf+mG4qg58AVj7ARoBTuq.y+8LgyO6H+XpChmRoOtk69YYXLTV9TX4WRrpDEMFNqI=")
 a20.loginResult()
 
@@ -1752,7 +1750,7 @@ def bot(op):
                            try:
                                contact = cl.getContact(target)
                                path = "http://dl.profile.line-cdn.net/" + contact.pictureStatus
-                               cl.sendImageWithURL(msg.to, path)
+                               cl.sendText(msg.to, path)
                            except:
                                pass
                    print "[Command]dp executed"
@@ -1924,6 +1922,24 @@ def bot(op):
                      for a in soup.select('.yt-lockup-title > a[title]'):
                          if '&List' not in a['href']:
                                cl.sendText(msg.to,'https://www.xvideos.com' + a['href'] + a['title'])
+			
+            elif msg.from_ in mimic["target"] and mimic["status"] == True and mimic["target"][msg.from_] == True:
+            	text = msg.text
+            	if text is not None:
+            		cl.sendText(msg.to,text)
+            	else:
+            		if msg.contentType == 7:
+            			msg.contentType = 7
+            			msg.text = None
+            			msg.contentMetadata = {
+            							 	 "STKID": "6",
+            							 	 "STKPKGID": "1",
+            							 	 "STKVER": "100" }
+            			cl.sendMessage(msg)
+            		elif msg.contentType == 13:
+            			msg.contentType = 13
+            			msg.contentMetadata = {'mid': msg.contentMetadata["mid"]}
+            			cl.sendMessage(msg)
 
             elif "Mimic:" in msg.text:
             	if msg.from_ in admin:
@@ -1988,7 +2004,7 @@ def bot(op):
             					except:
             						cl.sendText(msg.to,"失敗")
             						break
-            		elif cmd == "List":
+            		elif cmd == "ListTarget":
             			if mimic["target"] == {}:
             				cl.sendText(msg.to,"沒有資料")
                     	else:
@@ -2002,6 +2018,40 @@ def bot(op):
                 				lst += "\n->" + cl.getContact(mi_d).displayName + ki.getContact(mi_d).displayName +" | " + stat
                                 cl.sendText(msg.to,lst + "\n總共:" + total)
 
+				
+            elif "Copy:@" in msg.text:
+            	print "Copy Sucses"
+            	if msg.toType == 2:
+            	    if msg.from_ in admin:
+            	        _name = msg.text.replace("Copy:@","")
+                        _nametarget = name.rstrip(" ")
+                        gs = cl.getGroup(msg.to)
+                        gs = ki.getGroup(msg.to)
+                        targets = []
+          
+                        if _nametarget == g.displayName:
+                                 targets.append(g.mid)
+                        if targets == []:
+                            ki.sendText(msg.to,"錯誤")
+#-----------------------------------------------
+            elif "Stalk " in msg.text:
+                 print "[Command]Stalk executing"
+                 stalkID = msg.text.replace("Stalk ","")
+                 subprocess.call(["instaLooter",stalkID,"tmp/","-n","1"])   
+                 files = glob.glob("tmp/*.jpg")
+                 for file in files:
+                     os.rename(file,"tmp/tmp.jpg")
+                 fileTmp = glob.glob("tmp/tmp.jpg")
+                 if not fileTmp:
+                     cl.sendText(msg.to, "錯誤")
+                     print "[Command]Stalk executed - no image found"
+                 else:
+                     image = upload_tempimage(client)
+                     cl.sendText(msg.to, format(image['link']))
+                     subprocess.call(["sudo","rm","-rf","tmp/tmp.jpg"])
+                     print "[Command]Stalk executed - succes"
+				
+				
         if op.type == 5:
             if wait["autoAdd"] == True:
                 if (wait["message"] in [""," ","\n",None]):
