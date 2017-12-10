@@ -30,26 +30,7 @@ ki5 = YYK.LINE()
 ki5.login(qr=True)
 ki5.loginResult()
 
-ki6 = YYK.LINE()
-ki6.login(qr=True)
-ki6.loginResult()
-
-ki7 = YYK.LINE()
-ki7.login(qr=True)
-ki7.loginResult()
-
-ki8 = YYK.LINE()
-ki8.login(qr=True)
-ki8.loginResult()
-
-ki9 = YYK.LINE()
-ki9.login(qr=True)
-ki9.loginResult()
-
-ki10 = YYK.LINE()
-ki10.login(qr=True)
-ki10.loginResult()
-
+ki5 = ki6 = ki7 = ki8 = ki9 = ki10
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
